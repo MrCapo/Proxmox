@@ -4,7 +4,7 @@
 # Author: tteck
 # Co-Author: MickLesk (Canbiz)
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/MrCapo/Proxmox/raw/main/LICENSE
 # Source: https://github.com/sysadminsmedia/homebox
 
 source /dev/stdin <<< "$FUNCTIONS_FILE_PATH"
