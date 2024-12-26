@@ -163,9 +163,9 @@ msg_ok "Added Additional Nextcloud Packages"
 msg_info "Starting Services"
 $STD rc-service redis start
 $STD rc-update add redis default
-$STD rc-service php-fpm82 start
+$STD rc-service php-fpm83 start
 chown -R nextcloud:www-data /var/log/nextcloud/
-$STD rc-service php-fpm82 restart
+$STD rc-service php-fpm83 restart
 $STD rc-service nginx start
 $STD rc-service nextcloud start
 $STD rc-update add nginx default
